@@ -2,26 +2,26 @@
 cask "floe" do
   depends_on macos: ">= :ventura"
 
-  version "1.12.4"
+  version "1.12.5"
 
   on_macos do
     on_intel do
-      sha256 "1a0db741188ae6ec18eb0d960ede9a369a09ad56b53a624b9906a236a8482005"
+      sha256 "71c607e2b1df5956969a2a90b4cedb84d886535b1bb43c3ef954f71a6c7df7c2"
       url "https://github.com/jannskiee/floe/releases/download/v#{version}/floe_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "808e634b393c27bf960718f20e3a6539936f7a2794ea231b1da0db29c5fc80c3"
+      sha256 "fab4828d01f1eba58607d580924c261c1d004f754dd0ba04eb4d9ebe1b84b88e"
       url "https://github.com/jannskiee/floe/releases/download/v#{version}/floe_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "643026e51e9c4570b092bac8470c2c231bca3eb742849d9e025408840af6f3e0"
+      sha256 "d88724953326b5f66932fca8ea30a1bd12a4b1c12c31a8d6353fe68384b2f2c3"
       url "https://github.com/jannskiee/floe/releases/download/v#{version}/floe_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "63f6566c667387d2aabc2dc7a9c6a162f2810720ecb13a673199f2b831739ad3"
+      sha256 "01a5673116b73fd100050ebf2c6e27f4409baba671757a98ffe59b84ee1142a5"
       url "https://github.com/jannskiee/floe/releases/download/v#{version}/floe_#{version}_linux_arm64.tar.gz"
     end
   end
